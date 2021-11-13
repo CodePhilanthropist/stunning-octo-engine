@@ -39,12 +39,5 @@ var scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 
-//====================== Initialize Animate on Scroll ===================
-AOS.init({
-    once: true,
-    easing: 'ease-in-out-quad',
-    duration: 600
-});
-
 //====================== Gumshoe Declaration ===================
 var spy = new Gumshoe('.gumshoe a');
