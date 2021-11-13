@@ -1,0 +1,25 @@
+{
+  "name": "stunning-octo-engine",
+  "version": "1.0.0",
+  "description": "A simple static website with menu for ELEC 1 subject at Cebu Technological Univeristy Main Campus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodePhilanthropist/stunning-octo-engine.git"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "Rian Rey Barriga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodePhilanthropist/stunning-octo-engine/issues"
+  },
+  "homepage": "https://github.com/CodePhilanthropist/stunning-octo-engine#readme",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}
