@@ -103,6 +103,7 @@ textarea{
     font-size: 14px;
     overflow: auto;
     resize: vertical;
+    outline: none;
     &:focus{
         border-color: $prime-skin;
     }
@@ -114,6 +115,7 @@ textarea{
     box-sizing: border-box;
     font-family: $prime-p;
     font-size: 14px;
+    outline: none;
     &:focus{
         border-color: $prime-skin;
     }
@@ -162,10 +164,13 @@ textarea{
                 font-size: 1rem;
                 display: block;
                 position: relative;
-                color: #0665b7;
+                color: $prime-skin;
                 padding: 10px 20px;
                 font-weight: 500;
                 outline: none;
+                &:hover{
+                    color: $nav-hover-skin;
+                }
             }
         }
     }

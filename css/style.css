@@ -107,10 +107,6 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .hero {
-    background: url("../images/hero-bg.svg") !important;
-    background-size: cover !important;
-  }
   header ul #hide-nav {
     display: block;
   }
@@ -263,7 +259,7 @@
 }
 
 .blog-title:hover {
-  color: #186de5;
+  color: #142F43;
 }
 
 .footer-title {
@@ -315,10 +311,11 @@ textarea {
   font-size: 14px;
   overflow: auto;
   resize: vertical;
+  outline: none;
 }
 
 textarea:focus {
-  border-color: #186de5;
+  border-color: #142F43;
 }
 
 .text-input {
@@ -329,10 +326,11 @@ textarea:focus {
           box-sizing: border-box;
   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
+  outline: none;
 }
 
 .text-input:focus {
-  border-color: #186de5;
+  border-color: #142F43;
 }
 
 .btn {
@@ -341,7 +339,7 @@ textarea:focus {
   text-align: center;
   padding: 1rem 1.5rem;
   border-radius: 50px;
-  color: #186de5;
+  color: #142F43;
   -webkit-transition: all .5s;
   transition: all .5s;
   font-size: 16px;
@@ -349,11 +347,11 @@ textarea:focus {
   font-family: "Jost", sans-serif;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  border: 1px solid #186de5;
+  border: 1px solid #142F43;
 }
 
 .btn:hover {
-  background: #186de5;
+  background: #142F43;
   color: white;
 }
 
@@ -364,7 +362,7 @@ textarea:focus {
   padding: 1rem 1.5rem;
   border-radius: 50px;
   color: #fff;
-  background: #186de5;
+  background: #142F43;
   -webkit-transition: all .5s;
   transition: all .5s;
   font-size: 16px;
@@ -377,8 +375,8 @@ textarea:focus {
 
 .reverse-btn:hover {
   background: #fff;
-  border: 1px solid #186de5;
-  color: #186de5;
+  border: 1px solid #142F43;
+  color: #142F43;
 }
 
 .modal-header {
@@ -414,14 +412,18 @@ textarea:focus {
   font-size: 1rem;
   display: block;
   position: relative;
-  color: #0665b7;
+  color: #142F43;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
 }
 
+.modal-header ul li a:hover {
+  color: #FF5F7E;
+}
+
 .activate {
-  background: #186de5;
+  background: #142F43;
   -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
@@ -454,11 +456,9 @@ textarea:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: #186de5;
+  background: #142F43;
   width: 100%;
   height: 100vh;
-  background: url("../images/hero-bg-md.svg");
-  background-size: cover;
 }
 
 .hero header {
@@ -547,7 +547,7 @@ textarea:focus {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #4AE3B5;
+  background-color: #FF5F7E;
   visibility: hidden;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
@@ -570,7 +570,7 @@ textarea:focus {
   visibility: visible;
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
-  color: #4AE3B5;
+  color: #FF5F7E;
 }
 
 .hero header ul li:last-child {
@@ -608,6 +608,25 @@ textarea:focus {
   background: #fff;
 }
 
+.hero .hero-container section:first-child .tongkoy a {
+  border: none !important;
+  background: none;
+}
+
+.hero .hero-container section:first-child .tongkoy a i {
+  background: #ecf6fe;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  color: #142F43;
+  margin-bottom: 2rem;
+}
+
+.hero .hero-container section:first-child .tongkoy a i:hover {
+  background: #FF5F7E;
+  color: #ecf6fe;
+}
+
 .hero .hero-container section:nth-child(2) {
   display: none;
 }
@@ -624,7 +643,7 @@ textarea:focus {
   z-index: 999;
   position: fixed;
   height: 4rem;
-  background: #186de5;
+  background: #142F43;
 }
 
 .aborp .menu-bar {
@@ -706,7 +725,7 @@ textarea:focus {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #4AE3B5;
+  background-color: #4ae3b5;
   visibility: hidden;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
@@ -729,7 +748,7 @@ textarea:focus {
   visibility: visible;
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
-  color: #4AE3B5;
+  color: #FF5F7E;
 }
 
 .aborp ul li:last-child {
@@ -810,6 +829,9 @@ textarea:focus {
 
 .features section:nth-child(2) article div:first-child img {
   width: 100%;
+  padding: 2rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .features section:nth-child(2) article div:nth-child(2) {
@@ -832,6 +854,9 @@ textarea:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 4rem 3rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .explainer section:first-child {
@@ -854,7 +879,7 @@ textarea:focus {
 
 .explainer section:first-child article:nth-child(2) h1 {
   text-align: left !important;
-  margin: 0 0 .5rem 0;
+  margin: 0 0 0.5rem 0;
 }
 
 .explainer section:first-child article:nth-child(2) p {
@@ -874,7 +899,7 @@ textarea:focus {
 
 .explainer section:nth-child(2) article:first-child h1 {
   text-align: left !important;
-  margin: 0 0 .5rem 0;
+  margin: 0 0 0.5rem 0;
 }
 
 .explainer section:nth-child(2) article:first-child p {
@@ -917,12 +942,12 @@ textarea:focus {
 }
 
 .services section:nth-child(2) article:hover h1 {
-  color: #186de5;
+  color: #142F43;
 }
 
 .services section:nth-child(2) article i {
-  background: #186de5;
-  padding: .5rem;
+  background: #142F43;
+  padding: 0.5rem;
   font-size: 3.5rem;
   border-radius: 50%;
   color: #fff;
@@ -930,8 +955,8 @@ textarea:focus {
 }
 
 .clients {
-  background: -webkit-gradient(linear, left top, left bottom, from(#4169e1c4), to(rgba(65, 105, 225, 0.699))), url("../images/new-bg.jpg") fixed;
-  background: linear-gradient(#4169e1c4, rgba(65, 105, 225, 0.699)), url("../images/new-bg.jpg") fixed;
+  background: -webkit-gradient(linear, left top, left bottom, from(#142F43), to(#2C272E)), url("../images/new-bg.jpg") fixed;
+  background: linear-gradient(#142F43, #2C272E), url("../images/new-bg.jpg") fixed;
   background-repeat: no-repeat;
   background-size: cover;
   height: 25rem !important;
@@ -997,28 +1022,51 @@ textarea:focus {
 .team section:nth-child(2) article div:first-child img {
   width: 150px;
   border-radius: 50%;
-  border: .7rem solid #ecf6fe;
+  border: 0.7rem solid #1831441c;
 }
 
 .team section:nth-child(2) article div:nth-child(2) div {
   height: 40px;
-  margin: .4rem 0 .5rem 0;
+  margin: 0.4rem 0 0.5rem 0;
 }
 
 .team section:nth-child(2) article div:nth-child(2) div i {
-  background: #ecf6fe;
   padding: 0.5rem;
   font-size: 1.5rem;
   border-radius: 50%;
-  color: #0665b7;
+  color: #142F43;
   margin-bottom: 2rem;
 }
 
 .team section:nth-child(2) article div:nth-child(2) div i:hover {
-  background: #0665b7;
+  background: #FF5F7E;
   color: white;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.team section:nth-child(2) article:hover {
+  background-color: #142F43;
+}
+
+.team section:nth-child(2) article:hover .context-title {
+  color: white;
+}
+
+.team section:nth-child(2) article:hover p {
+  color: #d6d6d6 !important;
+}
+
+.team section:nth-child(2) article:hover div:first-child img {
+  border: 0.7rem solid #ecf6fe;
+}
+
+.team section:nth-child(2) article:hover div:nth-child(2) div i {
+  background: white;
+}
+
+.team section:nth-child(2) article:hover div:nth-child(2) div i:hover {
+  background: #FF5F7E;
 }
 
 .blog {
@@ -1050,6 +1098,9 @@ textarea:focus {
 
 .blog section:nth-child(2) article div:first-child img {
   width: 100%;
+  padding: 2rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .blog section:nth-child(2) article div:nth-child(2) {
@@ -1096,8 +1147,8 @@ textarea:focus {
 
 .contact section:first-child article:first-child h1 {
   color: #777;
-  margin-top: .5rem !important;
-  margin-bottom: .5rem !important;
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
 }
 
 .contact section:first-child article:first-child form {
@@ -1138,7 +1189,7 @@ textarea:focus {
 }
 
 .contact section:first-child article:nth-child(2) ul li {
-  padding: .5rem 0 .5rem 0;
+  padding: 0.5rem 0 0.5rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1153,15 +1204,15 @@ textarea:focus {
 }
 
 .contact section:first-child article:nth-child(2) ul li div:first-child a i {
-  color: #186de5;
+  color: #142F43;
   background: #ecf6fe;
   border: none;
-  padding: .7rem;
+  padding: 0.7rem;
 }
 
 .contact section:first-child article:nth-child(2) ul li div:first-child a:hover i {
   color: #fff;
-  background: #186de5;
+  background: #142F43;
 }
 
 .contact section:first-child article:nth-child(2) ul li div:nth-child(2) {
@@ -1192,7 +1243,7 @@ textarea:focus {
 
 .contact section:nth-child(2) article:first-child p {
   text-align: left;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .contact section:nth-child(2) article:first-child ul li {
@@ -1211,16 +1262,20 @@ textarea:focus {
   background: grey;
 }
 
-.contact section:nth-child(2) article:nth-child(2) ul li i, .contact section:nth-child(2) article:nth-child(3) ul li i, .contact section:nth-child(2) article:nth-child(4) ul li i {
-  color: #186de5;
+.contact section:nth-child(2) article:nth-child(2) ul li i,
+.contact section:nth-child(2) article:nth-child(3) ul li i,
+.contact section:nth-child(2) article:nth-child(4) ul li i {
+  color: #142F43;
 }
 
-.contact section:nth-child(2) article:nth-child(2) ul li a:hover, .contact section:nth-child(2) article:nth-child(3) ul li a:hover, .contact section:nth-child(2) article:nth-child(4) ul li a:hover {
-  color: #186de5;
+.contact section:nth-child(2) article:nth-child(2) ul li a:hover,
+.contact section:nth-child(2) article:nth-child(3) ul li a:hover,
+.contact section:nth-child(2) article:nth-child(4) ul li a:hover {
+  color: #142F43;
 }
 
 .footer {
-  background: #186de5;
+  background: #142F43;
   padding: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
